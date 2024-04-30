@@ -53,7 +53,7 @@ This project is a web scraper designed to fetch product data from Amazon based o
 
 ## Screenshots
 
-![image](https://github.com/Colledev/Scrape-Amazon/assets/112740912/ea956177-6a27-4b45-ac8b-d58524b7ca33)
+![image](https://github.com/Colledev/Scrape-Amazon/assets/112740912/4e1aaf25-dd56-4b8c-bd3e-0e3195446804)
 
 ## License
 
