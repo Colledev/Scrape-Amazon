@@ -61,7 +61,6 @@ app.get("/api/scrape", async (req, res) => {
       const numberReviews = parseInt(numberReviewsText, 10) || "N/A";
       const product = { title, rating, numberReviews, image };
       products.push(product);
-      console.log(product);
     });
 
     // Returning product data in JSON format
