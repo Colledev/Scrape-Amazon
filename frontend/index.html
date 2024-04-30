@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Product Scraper</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div>
+        <img src="img/Amazon_logo.png" alt="Amazon Logo" class="nav-logo" />
+      </div>
+      <div>
+        <h1 class="amazon-title">Product List</h1>
+      </div>
+      <select class="search-select">
+        <option>ALL</option>
+      </select>
+      <input
+        type="text"
+        id="keywordInput"
+        placeholder="Search Amazon"
+        class="search-input"
+      />
+      <div class="search-icon">
+        <img
+          onclick="searchAmazon()"
+          src="img/magnifyingGlass.png"
+          alt="Search Icon"
+          class="glass"
+        />
+      </div>
+    </div>
+    <div id="results" class="product-list"></div>
+    <div class="footer">
+      <p class="developer">Developed by: Gabriel Colle</p>
+      <div class="icons-link">
+        <a href="https://www.linkedin.com/in/gabriel-colle-169134259/">
+          <img src="img/Linkedin.png" alt="Icon Linkedin" class="Icon" />
+        </a>
+        <a href="https://github.com/Colledev">
+          <img src="img/Github.png" alt="Icon Github" class="Icon" />
+        </a>
+        <a href="mailto:gabrielcolle3@hotmail.com">
+          <img src="img/Gmail.png" alt="Icon Gmail" class="Icon" />
+        </a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
